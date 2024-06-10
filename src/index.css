@@ -6,11 +6,7 @@
 :root {
   --secondary-color: #ff6347;
 }
-body{
-  color: white;
-  background-color: rgb(55, 41, 41);
-  
-}
+
 
 ul{
   list-style-type: none;
