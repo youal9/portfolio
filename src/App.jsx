@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
+import About from './Components/About/About'
 
 function App() {
  
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
      <Navbar/>
+     <About/>
     </>
   )
 }
