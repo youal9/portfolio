@@ -1,7 +1,7 @@
 import React, {useState}from 'react'
 import { FaBars, FaTimes } from "react-icons/fa";
 import './Navbar.css'
-import logo from "../../assets/Yw.png";
+import logo from "../../assets/yw1.png";
 
 
 const Navbar = () => {
