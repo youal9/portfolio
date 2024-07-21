@@ -5,8 +5,12 @@
 }
 :root {
   --secondary-color: #ff6347;
-}
 
+}
+body{
+  font-family: 'poppins', sans-serif;
+
+}
 
 ul{
   list-style-type: none;
