@@ -3,6 +3,7 @@ import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import javascript from "../../assets/javascript.png";
 import react from "../../assets/react.png";
+import Bootstrap from "../../assets/Bootstrap.png";
 import github from "../../assets/github.png";
 import video from "../../assets/video.mp4"; // Importera videofilen
 import './Skills.css';
@@ -33,6 +34,11 @@ const Skills = () => {
                     <img src={github} alt="GitHub logo" className='icon-react' />
                     <p>GitHub</p>
                 </div>
+                <div className='skill-item bootstrap'>
+                    <img src={Bootstrap} alt="bootstrap logo" className='icon-react' />
+                    <p>Boostrap</p>
+                </div>
+              
             </div>
         </div>
     );
