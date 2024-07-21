@@ -1,0 +1,104 @@
+.projects {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.projectsTitle {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    grid-column: span 3; /* Sätt titeln att spänna över alla kolumner */
+}
+
+.project {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+}
+
+.laptopImage {
+    width: 50%;
+}
+
+.laptop {
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.laptopScreen {
+    width: 338px;
+    height: 283px;
+    position: absolute;
+    top: 10px;
+    left: 98px;
+}
+
+.shoppApp {
+    width: 60%;
+    height: 125px;
+}
+
+.projectDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.projectTitle {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.projectDesc {
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 1072px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+    }
+    .projectsTitle {
+        font-size: 2em;
+        grid-column: span 2; /* Anpassa titeln för två kolumner */
+    }
+    .projectTitle {
+        font-size: 2em;
+    }
+    .shoppApp {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .projectsTitle {
+        font-size: 3em;
+      
+    }
+    .projectTitle {
+        font-size: 2em;
+    }
+    .shoppApp {
+        width: 200px;
+    }
+}
