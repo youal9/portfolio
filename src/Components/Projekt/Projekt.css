@@ -69,6 +69,28 @@
     line-height: 40px;
 }
 
+.linksContainer {
+    display: flex; /* Använd flexbox för att styla länkarna horisontellt */
+    gap: 5px; /* Lägg till utrymme mellan länkarna */
+    margin-top: 10px; /* Lägg till utrymme ovanför länkarna */
+}
+
+.githubLink {
+    
+    padding: 8px 9px; /* Lägger till lite utrymme runt länken */
+    color: #ffffff; /* Textfärg */
+    background-color: #007bff; /* Bakgrundsfärg */
+    border: none; /* Tar bort standard kantlinje */
+    border-radius: 18px; /* Gör hörnen rundade */
+    text-decoration: none; /* Tar bort understrykning */
+    font-size: 12px; /* Justerar textstorlek */
+    
+   
+  }
+  
+ 
+  
+
 @media screen and (max-width: 1072px) {
     .projects {
         grid-template-columns: 1fr 1fr;
