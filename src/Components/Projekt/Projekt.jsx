@@ -7,6 +7,7 @@ const Project = () => {
   return (
     <div className="projects">
       <h1 className="projectsTitle">Projects</h1>
+
       <div className="project">
         <div className="laptop">
           <img src={laptop} alt="Laptop" className="laptopImage"  />
@@ -22,8 +23,12 @@ const Project = () => {
             ukkjkj jjkljkl jkjklj kjkj
            
           </p>
-          
-          <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
+
+          <div className="linksContainer">
+            <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">hemsidan</a>
+            <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
+          </div>
+
         </div>
       </div>
 
@@ -42,7 +47,10 @@ const Project = () => {
             ukkjkj jjkljkl jkjklj kjkj
            
           </p>
-         
+          <div className="linksContainer">
+            <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">hemsidan</a>
+            <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
+          </div>
         </div>
       </div>
 
@@ -61,7 +69,10 @@ const Project = () => {
             ukkjkj jjkljkl jkjklj kjkj
            
           </p>
-         
+          <div className="linksContainer">
+            <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">hemsidan</a>
+            <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
+          </div>
         </div>
       </div>
 
