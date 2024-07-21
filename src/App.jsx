@@ -2,7 +2,12 @@ import { useState } from 'react'
 
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
-import About from './Components/About/About'
+
+
+import Home from './Components/Home/Home'
+import Skills from './Components/Skills/Skills'
+import Projekt from './Components/Projekt/Projekt'
+
 
 function App() {
  
@@ -10,7 +15,9 @@ function App() {
   return (
     <>
      <Navbar/>
-     <About/>
+     <Home/>
+     <Skills/>
+     <Projekt/>
     </>
   )
 }
