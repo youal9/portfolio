@@ -1,5 +1,5 @@
 import React from 'react';
-import video from "../../assets/video.mp4";
+
 
 import logo from "../../assets/y1.png";
 import './Home.css';
@@ -10,7 +10,7 @@ const Home = () => {
 
     return (
         <section className='About'>
-            <video className='video' src={video} autoPlay loop muted/>
+           
             <div className="about-content">
                 <div className="about-title">
                     <h1>Hi i am <span>Youal</span></h1>
