@@ -71,7 +71,7 @@
 
 .linksContainer {
     display: flex; /* Använd flexbox för att styla länkarna horisontellt */
-    gap: 5px; /* Lägg till utrymme mellan länkarna */
+    gap: 16px; /* Lägg till utrymme mellan länkarna */
     margin-top: 10px; /* Lägg till utrymme ovanför länkarna */
 }
 
