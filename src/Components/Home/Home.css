@@ -7,13 +7,7 @@
     align-items: center;
 }
 
-.video {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
+
 
 .about-title span {
     color: rgb(66, 118, 178);
