@@ -2,6 +2,8 @@ import React from 'react';
 import './Projekt.css';
 import laptop from '../../assets/laptop.png';
 import laptopApp from '../../assets/shopp.jpeg';
+import Food from '../../assets/food.png';
+import Port from '../../assets/portfolio.png';
 
 const Project = () => {
   return (
@@ -36,12 +38,12 @@ const Project = () => {
         <div className="laptop">
           <img src={laptop} alt="Laptop" className="laptopImage"  />
           <div className="laptopScreen">
-            <img src={laptopApp} alt="Laptop App" className="shoppApp" />
+            <img src={Food} alt="Laptop App" className="shoppApp" />
           </div>
         </div>
          
         <div className="projectDetail">
-          <h1 className="projectTitle">Webb Shop</h1>
+          <h1 className="projectTitle">Mat aplication</h1>
           <p className="projectDesc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             ukkjkj jjkljkl jkjklj kjkj
@@ -58,12 +60,12 @@ const Project = () => {
         <div className="laptop">
           <img src={laptop} alt="Laptop" className="laptopImage"  />
           <div className="laptopScreen">
-            <img src={laptopApp} alt="Laptop App" className="shoppApp" />
+            <img src={Port} alt="Laptop App" className="shoppApp" />
           </div>
         </div>
          
         <div className="projectDetail">
-          <h1 className="projectTitle">Webb Shop</h1>
+          <h1 className="projectTitle">Portfolio</h1>
           <p className="projectDesc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             ukkjkj jjkljkl jkjklj kjkj
