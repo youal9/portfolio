@@ -6,11 +6,11 @@
     left: 0;
     z-index: 1;
     transition: .3s ease-in;
-    overflow: hidden;
    
- 
 }
-
+.header.dark-nav {
+    background-color: rgb(10, 23, 43); /* Add desired styles for sticky nav */
+}
 .header .navbar {
     display: flex;
     justify-content: space-between;
@@ -25,9 +25,8 @@
     color: #ffffff;
 }
 
-.header .navbar img{
+.header .navbar img {
     width: 50px;
-   
     height: auto;
 }
 
@@ -35,18 +34,10 @@
     display: flex;
 }
 
-
-
-.header .nav-item a{
-    padding: 1rem;
-    font-weight: 500;
-    position: relative;
-}
-
 .header .nav-item a {
     padding: 1rem;
     font-weight: 500;
-    
+    position: relative;
 }
 
 .header .nav-item a::before {
@@ -71,20 +62,17 @@
 .hamburger {
     display: none;
 }
-.icon{
+.icon {
     font-size: 30px;
 }
 
-
-@media screen and (max-width:940px) {
+@media screen and (max-width: 940px) {
     .header {
         max-width: 100%;
-        
     }
 
     .header .navbar {
         max-width: 100%;
-       
     }
 
     .hamburger {
@@ -97,8 +85,8 @@
         left: -100%;
         top: 90px;
         flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.5); /* Svart med 50% opacitet */
-        backdrop-filter: blur(4px); /* Applicera suddighet */
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
         width: 50%;
         height: 70vh;
         z-index: 999;
@@ -119,11 +107,11 @@
         padding: 20px;
     }
 }
-@media screen and (max-width: 400px){
-.header {
-    background-color: rgba(14, 25, 54, 0.586);
-}
-    
+
+@media screen and (max-width: 840px) {
+    .header {
+        background-color: rgb(14, 25, 54);
+    }
 }
 
 
