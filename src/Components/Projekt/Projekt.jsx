@@ -21,9 +21,8 @@ const Project = () => {
         <div className="projectDetail">
           <h1 className="projectTitle">Webb Shop</h1>
           <p className="projectDesc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            ukkjkj jjkljkl jkjklj kjkj
-           
+            en webbshop som erbjuder ett brett sortiment av mode- och sportprodukter.
+            Produkterna lagras i en databas   skriv lite om den
           </p>
 
           <div className="linksContainer">
@@ -43,15 +42,15 @@ const Project = () => {
         </div>
          
         <div className="projectDetail">
-          <h1 className="projectTitle">Mat aplication</h1>
+          <h1 className="projectTitle">Mat applikation</h1>
           <p className="projectDesc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            ukkjkj jjkljkl jkjklj kjkj
+          En matssökningsapplikation där jag har
+           använt TheMealDB API för att hämta data om olika maträtter
            
           </p>
           <div className="linksContainer">
             <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">hemsidan</a>
-            <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
+            <a href="https://github.com/youal9/mat-applikationer" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
           </div>
         </div>
       </div>
@@ -67,13 +66,13 @@ const Project = () => {
         <div className="projectDetail">
           <h1 className="projectTitle">Portfolio</h1>
           <p className="projectDesc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            ukkjkj jjkljkl jkjklj kjkj
+          Min portfolio där jag vissar upp mina färdigheter och projekt 
+          inom frontend-utveckling
            
           </p>
           <div className="linksContainer">
             <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">hemsidan</a>
-            <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
+            <a href="https://github.com/youal9/portfolio" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
           </div>
         </div>
       </div>
