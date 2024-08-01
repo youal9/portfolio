@@ -26,7 +26,7 @@ const Project = () => {
           </p>
 
           <div className="linksContainer">
-            <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">hemsidan</a>
+            <a href="https://webbshop-athletx-m.vercel.app/Home" target="_blank" rel="noopener noreferrer" className="githubLink">hemsidan</a>
             <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
           </div>
 
@@ -49,7 +49,7 @@ const Project = () => {
            
           </p>
           <div className="linksContainer">
-            <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">hemsidan</a>
+            <a href="https://matapplikation-y.vercel.app/" target="_blank" rel="noopener noreferrer" className="githubLink">hemsidan</a>
             <a href="https://github.com/youal9/mat-applikationer" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
           </div>
         </div>

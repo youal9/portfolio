@@ -21,7 +21,7 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/youal-woldemariam/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </a>
-            <a href="https://www.github.com/ellinorjanssonl" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/youal9" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} size="lg" />
             </a>
             
