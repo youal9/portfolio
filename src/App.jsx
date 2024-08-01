@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="main-content">
-    <video className="video-background" src={video} autoPlay loop muted />
+    <video className="video-background" src={video} autoPlay loop muted playsInline controls={false}  />
     <Navbar/>
     <Home />
     <Skills />
