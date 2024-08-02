@@ -25,7 +25,7 @@
     color: #ffffff;
 }
 
-.header .navbar img {
+.header .navbar img{
     width: 50px;
     height: auto;
 }
@@ -62,11 +62,12 @@
 .hamburger {
     display: none;
 }
-.icon {
+.icon{
     font-size: 30px;
 }
 
-@media screen and (max-width: 940px) {
+
+@media screen and (max-width:940px) {
     .header {
         max-width: 100%;
     }
@@ -86,7 +87,7 @@
         top: 90px;
         flex-direction: column;
         background-color: rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(4px);
+        backdrop-filter: blur(5px);
         width: 50%;
         height: 70vh;
         z-index: 999;
@@ -105,12 +106,6 @@
     .header .navbar img {
         width: 90px;
         padding: 20px;
-    }
-}
-
-@media screen and (max-width: 840px) {
-    .header {
-        background-color: rgb(14, 25, 54);
     }
 }
 
