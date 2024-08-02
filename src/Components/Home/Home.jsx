@@ -14,10 +14,10 @@ const Home = () => {
             <div className="about-content">
                 <div className="about-title">
                     <h1>Hi i am <span>Youal</span></h1>
-                    <p>Jag är en passionerad frontend-utvecklare och student som för närvarande
-                     studerar frontend.
-                     Min resa inom kodning började med en nyfikenhet på hur webbplatser fungerar,
-                      och det har vuxit till en fullständig passion för att skapa dynamiska och responsiva webbapplikationer.
+                    <p>I’m a frontend developer and student with a strong passion
+                     for building user-friendly and responsive web applications.
+                      Currently studying frontend development, I am constantly
+                       seeking new opportunities to enhance my knowledge and skills in the field.
 
 
                     </p>
