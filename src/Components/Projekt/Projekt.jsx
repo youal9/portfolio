@@ -22,7 +22,7 @@ const Project = () => {
           <h1 className="projectTitle">Webb Shop</h1>
           <p className="projectDesc">
             en webbshop som erbjuder ett brett sortiment av mode- och sportprodukter.
-            Produkterna lagras i en databas   skriv lite om den
+            Produkterna lagras i en databas   
           </p>
 
           <div className="linksContainer">
