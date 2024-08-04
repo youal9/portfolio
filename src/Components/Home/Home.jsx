@@ -3,7 +3,7 @@ import React from 'react';
 
 import logo from "../../assets/y1.png";
 import './Home.css';
-import cv from "../../assets/cv.pdf";
+import cv from "../../assets/Frontend cv.pdf";
 
 const Home = () => {
    
