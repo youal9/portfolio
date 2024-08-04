@@ -15,7 +15,7 @@ const Home = () => {
                         Currently studying frontend development, I am constantly
                         seeking new opportunities to enhance my knowledge and skills in the field.
                     </p>
-                    <a href={cv} download="Youal cv.pdf">
+                    <a href={cv} download="Youal cv">
                         <button>Download CV</button>
                     </a>
                 </div>
