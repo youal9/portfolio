@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from "../../assets/y1.png";
 import './Home.css';
-import cv from "../../assets/min frontend cv.pdf";
+import cv from "../../assets/min_frontend_cv.pdf";
 
 const Home = () => {
     return (
