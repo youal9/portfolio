@@ -21,12 +21,13 @@ const Project = () => {
         <div className="projectDetail">
           <h1 className="projectTitle">Webb Shop</h1>
           <p className="projectDesc">
-            en webbshop som erbjuder ett brett sortiment av mode- och sportprodukter.
-            Produkterna lagras i en databas   
+          A web shop offering a diverse range of fashion and sports products.
+           Products are stored in a database and categorized into sections
+            like men, women, kids, and home.
           </p>
 
           <div className="linksContainer">
-            <a href="https://webbshop-athletx-m.vercel.app/Home" target="_blank" rel="noopener noreferrer" className="githubLink">hemsidan</a>
+            <a href="https://webbshop-athletx-m.vercel.app/Home" target="_blank" rel="noopener noreferrer" className="githubLink">Website  </a>
             <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
           </div>
 
@@ -44,12 +45,13 @@ const Project = () => {
         <div className="projectDetail">
           <h1 className="projectTitle">Mat applikation</h1>
           <p className="projectDesc">
-          En matssökningsapplikation där jag har
-           använt TheMealDB API för att hämta data om olika maträtter
+          A recipe search application that uses TheMealDB API to retrieve and 
+          display data on various dishes. Users can search for recipes,
+           view detailed ingredients, and get instruction
            
           </p>
           <div className="linksContainer">
-            <a href="https://matapplikation-y.vercel.app/" target="_blank" rel="noopener noreferrer" className="githubLink">hemsidan</a>
+            <a href="https://matapplikation-y.vercel.app/" target="_blank" rel="noopener noreferrer" className="githubLink">Website  </a>
             <a href="https://github.com/youal9/mat-applikationer" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
           </div>
         </div>
@@ -66,12 +68,11 @@ const Project = () => {
         <div className="projectDetail">
           <h1 className="projectTitle">Portfolio</h1>
           <p className="projectDesc">
-          Min portfolio där jag vissar upp mina färdigheter och projekt 
-          inom frontend-utveckling
+          my portfolio, where I showcase my skills and projects in frontend development.
            
           </p>
           <div className="linksContainer">
-            <a href="https://github.com/youal9/webbshop" target="_blank" rel="noopener noreferrer" className="githubLink">hemsidan</a>
+            <a href="https://youalsportfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="githubLink"> Website </a>
             <a href="https://github.com/youal9/portfolio" target="_blank" rel="noopener noreferrer" className="githubLink">GitHub</a>
           </div>
         </div>
