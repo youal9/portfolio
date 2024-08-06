@@ -9,7 +9,7 @@
    
 }
 .header.dark-nav {
-    background-color: rgb(10, 23, 43); /* Add desired styles for sticky nav */
+    background-color: rgb(2, 10, 22); /* Add desired styles for sticky nav */
 }
 .header .navbar {
     display: flex;
