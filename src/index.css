@@ -1,43 +1,44 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  
+  padding: 0;
 }
-:root {
-  --secondary-color: #ff6347;
 
-}
+
+
 
 body, html {
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   
 }
-.video-background {
-  position: fixed;
+
+.background-image {
+  position: fixed; /* Fixera bakgrunden så att den inte rör sig vid scrollning */
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  object-fit: cover;
+  width: 100vw; /* 100% av viewport width */
+  height: 100vh; /* 100% av viewport height */
+  background-image: url('../src/assets/data.jpg'); /* Ändra till din bilds sökväg */
+  background-size: cover; /* För att täcka hela skärmen */
+  background-position: center; /* Centrerar bilden */
+  background-repeat: no-repeat; /* Förhindrar upprepning */
+  z-index: -1; /* Lägg den bakom allt annat innehåll */
 }
+
 .main-content {
   position: relative;
   z-index: 1;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  min-height: 100vh; /* För att säkerställa att huvudcontent täcker hela höjden på viewporten */
 }
 
-
-ul{
+ul {
   list-style-type: none;
 }
-a{
+
+a {
   text-decoration: none;
 }
