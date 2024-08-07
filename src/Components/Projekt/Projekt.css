@@ -13,7 +13,7 @@
     color: #ffffff;
     text-align: center;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     grid-column: span 3; /* Sätt titeln att spänna över alla kolumner */
 }
 
@@ -63,7 +63,7 @@
 .projectTitle {
     margin-top: 20px;
     font-size: 30px;
-    
+    color: white;
 }
 
 .projectDesc {
