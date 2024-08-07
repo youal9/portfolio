@@ -2,7 +2,7 @@
     width: 100%;
     height: auto; 
     position: relative;
-    
+    padding-top: 100px; 
     text-align: center;
   
    
@@ -11,7 +11,7 @@
   
    h1 {
     font-size: 50px;
-    margin-top: 90px;
+    margin-top: 120px;
     color: #ffffff;
   }
   .icon-react{
@@ -111,9 +111,12 @@
 }
 
 @media screen and (max-width: 600px) {
+    .skills {
+        padding-top: 120px; /* Justera för mindre skärmar */
+    }
     h1 {
         font-size: 1.8em;
-       
+        margin-top: 100px; 
     }
 
     .skill-list {
