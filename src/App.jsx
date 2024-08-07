@@ -1,7 +1,7 @@
-import { useState } from 'react';
+
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
-import './index.css'; // Importera globala stilar
+
 
 import Home from './Components/Home/Home';
 import Skills from './Components/Skills/Skills';
