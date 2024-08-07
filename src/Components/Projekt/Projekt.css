@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     
-    grid-auto-rows: minmax(0, 1fr);
+    
    
 }
 
@@ -13,7 +13,7 @@
     color: #ffffff;
     text-align: center;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     grid-column: span 3; /* Sätt titeln att spänna över alla kolumner */
 }
 
