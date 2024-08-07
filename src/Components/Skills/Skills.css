@@ -1,155 +1,89 @@
-/* Skills.css */
 
 .skills {
-    width: 100%;
-    height: 100vh; /* Full viewport height to center vertically */
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    
-    box-sizing: border-box;
-    padding: 20px;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh; /* Säkerställ att sektionen täcker hela viewport-höjden */
+    padding-top: 60px; /* Justera om det behövs för din navbar-höjd */
+    margin-bottom: 150px; /* Lägg till utrymme mellan sektioner */
 }
 
-h1 {
+.sectionTitle {
     font-size: 50px;
+    
     color: #ffffff;
-    margin-bottom: 20px; /* Margin below heading */
 }
 
-.icon-react {
-    width: 50px;
-}
-
-/* Skill list layout */
-.skill-list {
+.skillList {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 30px; /* Justera avståndet mellan färdighetsobjekten */
 }
 
-/* Skill item styling and animation */
-.skill-item {
+.skillItem {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 180px;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    animation: rotate 10s infinite linear; /* Rotation animation */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    color: white;
+    gap: 10px; /* Justera avståndet mellan ikon och färdighetsnamn */
 }
 
-/* Keyframes for rotation animation */
-@keyframes rotate {
-    0% {
-        transform: rotateY(0deg);
+.iconContainer {
+    transition: transform 200ms ease-in-out;
+    font-size: 4rem; /* Justera ikonstorlek här */
+    
+}
+
+.iconContainer:hover {
+    transform: scale(1.2);
+}
+
+.skillItem div {
+    font-weight: bold; 
+}
+.icons{
+    font-size: 70px;
+}
+
+
+
+
+@media (min-width: 800px) {
+    .sectionTitle {
+        font-size: 3rem; /* Justera storlek för mellanstora skärmar */
+        margin-top: 50px; /* Mindre marginal för mellanstora skärmar */
     }
-    100% {
-        transform: rotateY(360deg);
+    .skillList {
+        gap: 40px; /* Justera avståndet för mellanstora skärmar */
     }
-}
-
-.skill-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-}
-
-/* Specific hover colors */
-.skill-item.html:hover {
-    background-color: #ff5100; /* Red color for HTML */
-}
-
-.skill-item.css:hover {
-    background-color: #006eff; /* Blue color for CSS */
-}
-
-.skill-item.javascript:hover {
-    background-color: #fbe117; /* Yellow color for JavaScript */
-}
-
-.skill-item.react:hover {
-    background-color: #2c60b9; /* Dark blue color for React */
-}
-
-.skill-item.github:hover {
-    background-color: #f0f0f0; /* Light gray color for GitHub */
-}
-
-.skill-item.bootstrap:hover {
-    background-color: #851097; /* Purple color for Bootstrap */
-}
-
-/* Skill item text styling */
-.skill-item p {
-    font-size: 1.1em;
-    color: #333;
-    margin: 10px 0 0;
-}
-
-/* Media Queries for responsiveness */
-@media screen and (max-width: 1071px) {
-    h1 {
-        font-size: 3em;
-    }
-
-    .skill-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-
-    .skill-item {
-        width: 220px;
-    }
-
-    .skill-item p {
-        font-size: 1em;
+    .iconContainer {
+        font-size: 8rem; /* Justera ikonstorlek för mellanstora skärmar */
     }
 }
 
-@media screen and (max-width: 600px) {
-    .skills {
-        padding-top: 120px; /* Adjust for smaller screens */
-    }
 
-    .skill-list {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
+@media (max-width: 600px) {
+    .sectionTitle {
+        font-size: 2rem; /* Justera storlek för små skärmar */
+        margin-top: 20px; /* Mindre marginal för små skärmar */
     }
-
-    .skill-item {
-        width: 180px;
+    h1{
+        margin-bottom: 15px;
     }
-
-    .skill-item p {
-        font-size: 0.9em;
+    .skillList {
+        gap: 20px; /* Mindre avstånd för små skärmar */
     }
-
-    .icon-react {
-        width: 40px;
+    .iconContainer {
+        font-size: 3rem; /* Mindre ikonstorlek för små skärmar */
+    }
+    .icons{
+        font-size: 50px;
     }
 }
 
-@media screen and (max-width: 400px) {
-    h1 {
-        font-size: 2em;
-    }
-
-    .skill-item {
-        width: 150px;
-    }
-
-    .skill-item p {
-        font-size: 0.8em;
-    }
-
-    .icon-react {
-        width: 30px;
-    }
-}
+  
+  

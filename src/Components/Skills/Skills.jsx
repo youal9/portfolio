@@ -1,47 +1,48 @@
-// Skills.js
-import React from 'react';
-import html from "../../assets/html.png";
-import css from "../../assets/css.png";
-import javascript from "../../assets/javascript.png";
-import react from "../../assets/react.png";
-import Bootstrap from "../../assets/Bootstrap.png";
-import github from "../../assets/github.png";
-import './Skills.css';
 
-const Skills = () => {
-    return (
-        <div className='skills'>
-            <h1>Skills</h1>
-            <div className='skill-list'>
-                <div className='skill-item html'>
-                    <img src={html} alt="HTML logo" className='icon-react' />
-                    <p>HTML</p>
-                </div>
-                <div className='skill-item css'>
-                    <img src={css} alt="CSS logo" className='icon-react' />
-                    <p>CSS</p>
-                </div>
-                <div className='skill-item javascript'>
-                    <img src={javascript} alt="JavaScript logo" className='icon-react' />
-                    <p>JavaScript</p>
-                </div>
-                <div className='skill-item react'>
-                    <img src={react} alt="React logo" className='icon-react' />
-                    <p>React</p>
-                </div>
-                <div className='skill-item github'>
-                    <img src={github} alt="GitHub logo" className='icon-react' />
-                    <p>GitHub</p>
-                </div>
-                <div className='skill-item bootstrap'>
-                    <img src={Bootstrap} alt="bootstrap logo" className='icon-react' />
-                    <p>Bootstrap</p>
-                </div>
-            </div>
-        </div>
-    );
+import './Skills.css';
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaBootstrap,
+  FaJsSquare,
+  FaReact,
+  FaGit,
+  FaNode,
+  FaFigma,
+} from "react-icons/fa";
+
+
+function Skills() {
+  return (
+    <section  className="skills">
+      <h1 className="sectionTitle">Skills</h1>
+      <div className="skillList">
+        <SkillIcon icon={<FaHtml5 className="icons iconHtml5" color="orange"/>} skill="HTML" />
+        <SkillIcon icon={<FaCss3Alt className="icons iconCss3" color="blue"/>} skill="CSS" />
+        <SkillIcon icon={<FaJsSquare className="icons  iconJsSquare" color="yellow"/>} skill="JavaScript" />
+        <SkillIcon icon={<FaNode className="icons  iconNode" color="green" />} skill="Node" />
+      </div>
+      <hr />
+      <div className="skillList">
+        <SkillIcon icon={<FaReact className="icons iconReact" color="aqua"/>} skill="React" />
+        <SkillIcon icon={<FaGit className="icons  iconGit" />} color="purple" skill="Git" />
+        <SkillIcon icon={<FaBootstrap className="icons iconBootstrap" color="purple"/>} skill="Bootstrap" />
+        <SkillIcon icon={<FaFigma className="icons iconFigma"  color="blue" />} skill="Figma" />
+      </div>
+    </section>
+  );
+}
+
+function SkillIcon({ icon, skill }) {
+  return (
+    <div className="skillItem">
+      <div className="iconContainer">{icon}</div>
+      <div>{skill}</div>
+    </div>
+  );
 }
 
 export default Skills;
+
 
 
