@@ -1,44 +1,51 @@
+/* Skills.css */
+
 .skills {
     width: 100%;
-    height: auto; 
-    position: relative;
-    padding-top: 100px; 
-    text-align: center;
-    margin-top: 10px;
-    padding: 20px;
-  }
-
-  
-   h1 {
-    font-size: 50px;
-    margin-top: 120px;
-    color: #ffffff;
-  }
-  .icon-react{
-    width: 50px;
-  }
-  
-  .skill-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 90px;
-    margin-top: 100px;
-  }
-  
-  .skill-item {
+    height: 100vh; /* Full viewport height to center vertically */
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 180px; /* Justera bredden på varje färdighetsruta */
+    justify-content: center;
+    
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 20px; /* Margin below heading */
+}
+
+.icon-react {
+    width: 50px;
+}
+
+/* Skill list layout */
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Skill item styling and animation */
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
     padding: 10px;
     background-color: #fff;
-   
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgb(255, 255, 255);
-    animation: rotate 10s infinite linear;
-  }
-  @keyframes rotate {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: rotate 10s infinite linear; /* Rotation animation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Keyframes for rotation animation */
+@keyframes rotate {
     0% {
         transform: rotateY(0deg);
     }
@@ -46,59 +53,54 @@
         transform: rotateY(360deg);
     }
 }
-  
-  .skill-item:hover {
+
+.skill-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgb(255, 255, 255);
-    
-  }
-  .skill-item.html:hover {
-    background-color: #ff5100; /* Röd färg vid hover för HTML */
-  
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific hover colors */
+.skill-item.html:hover {
+    background-color: #ff5100; /* Red color for HTML */
 }
 
 .skill-item.css:hover {
-    background-color: #006eff; /* Grön färg vid hover för CSS */
+    background-color: #006eff; /* Blue color for CSS */
 }
 
 .skill-item.javascript:hover {
-    background-color: #fbe117; /* Blå färg vid hover för JavaScript */
+    background-color: #fbe117; /* Yellow color for JavaScript */
 }
 
 .skill-item.react:hover {
-    background-color: #2c60b9; /* Gul färg vid hover för React */
-    
+    background-color: #2c60b9; /* Dark blue color for React */
 }
 
 .skill-item.github:hover {
-    background-color: #ffffffe3; /* Lila färg vid hover för GitHub */
+    background-color: #f0f0f0; /* Light gray color for GitHub */
 }
+
 .skill-item.bootstrap:hover {
-    background-color: #851097e3; /* Lila färg vid hover för GitHub */
+    background-color: #851097; /* Purple color for Bootstrap */
 }
 
-  
-
-  
-  .skill-item p {
+/* Skill item text styling */
+.skill-item p {
     font-size: 1.1em;
     color: #333;
-  }
-  @media screen and (max-width: 1071px) {
-    
+    margin: 10px 0 0;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 1071px) {
     h1 {
         font-size: 3em;
     }
 
     .skill-list {
         display: grid;
-        grid-template-columns: repeat(2, 0fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-        justify-content: center;
-        margin-top: 150px;
-       
-        
-      
     }
 
     .skill-item {
@@ -112,21 +114,13 @@
 
 @media screen and (max-width: 600px) {
     .skills {
-        padding-top: 120px; /* Justera för mindre skärmar */
-    }
-    h1 {
-        font-size: 1.8em;
-        margin-top: 100px; 
+        padding-top: 120px; /* Adjust for smaller screens */
     }
 
     .skill-list {
-        
         display: grid;
-        grid-template-columns: repeat(1, 0fr);
-        margin-top: 100px;
-        justify-content: center;
-        align-items: center;
-        
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .skill-item {
@@ -145,14 +139,10 @@
 @media screen and (max-width: 400px) {
     h1 {
         font-size: 2em;
-        margin-top: 200px;
     }
-
-    
 
     .skill-item {
         width: 150px;
-        
     }
 
     .skill-item p {
@@ -163,4 +153,3 @@
         width: 30px;
     }
 }
-  
