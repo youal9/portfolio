@@ -54,10 +54,8 @@
     width: 350px;
     height: auto;
     margin-bottom: 90px;
-    margin-right: 100px;
     animation: bounce 4s infinite;
 }
-
 button {
     margin-top: 20px;
     padding: 10px 20px;
