@@ -1,4 +1,4 @@
-import React, {useEffect, useState}from 'react'
+import {useEffect, useState}from 'react'
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, scroller} from 'react-scroll';
 import './Navbar.css'
@@ -53,7 +53,7 @@ const Navbar = () => {
                 <Link to="skills" smooth={true}  duration={500} offset={25}  onClick={handleClick}>Skills</Link>
                 </li>
                 <li className='nav-item'>
-                <Link to="projects" smooth={true}  duration={500} offset={-80}  onClick={handleClick}>Projekt</Link>
+                <Link to="projects" smooth={true}  duration={500} offset={-80}  onClick={handleClick}>project</Link>
                 </li>
                 <li className='nav-item'>
                 <Link to="contact" smooth={true} duration={500} onClick={handleClick}>Contact</Link>
