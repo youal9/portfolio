@@ -23,6 +23,7 @@
 
 .header .nav-menu a {
     color: #ffffff;
+    cursor: pointer;
 }
 
 .header .navbar img{
