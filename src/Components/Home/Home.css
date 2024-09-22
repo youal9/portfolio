@@ -5,18 +5,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    overflow: hidden;
 }
 
 .header .navbar .logo {
     cursor: pointer; /* Gör logotypen klickbar */
   }
 
-.about-title span {
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 5px #0066da; /* Justera skuggans effekt */
-    padding: 9px; /* Lägg till lite padding för bättre synlighet */
-}
 
 .about-content {
     position: relative;
@@ -34,13 +29,32 @@
     align-items: flex-start; /* Placera texten till vänster */
     color: aliceblue;
     margin-right: 20px; /* Justera avståndet mellan text och bild */
+    
 }
 
-.about-title h1 {
-    font-size: 44px;
-    margin-top: 20px;
+
+.text-h1 {
+    font-size: 45px ;
+    font-weight: bold ;
+    letter-spacing: 7px ;
+    text-transform: uppercase;
+    padding: 6px;
+    background: linear-gradient(to right, hsl(0, 0%, 100%) 0%, hsl(0, 0%, 100%) 10%, hsla(0, 14%, 95%, 0.697) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s infinite linear; 
 }
 
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 1000px; /* Öka till 1000px för att ge mer utrymme */
+    }
+}
+
+  
 @keyframes bounce {
     0%, 100% {
         transform: translateY(0);
@@ -91,7 +105,7 @@ button:hover {
 
     .about-title h1 {
         font-size: 43px;
-        margin-top: 40px;
+        margin-top: 150px;
     }
 
     .about-title p {
@@ -106,14 +120,14 @@ button:hover {
     }
 
     .about-image {
-        width: 450px;
+        width: 350px;
         margin: 20px 0 0 0;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .about-title h1 {
-        font-size: 30px;
+     .text-h1{
+        font-size: 80px;
     }
 
     .about-title p {
@@ -136,8 +150,8 @@ button:hover {
     }
 
     .about-title h1 {
-        font-size: 38px;
-        margin-top: 90px;
+        font-size: 19px;
+        margin-top: 60px;
     }
 
     .about-title p {
