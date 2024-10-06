@@ -19,6 +19,9 @@
    flex-direction: column;
    color: white;
 }
+.contact-details a {
+  color: #ffffff;
+}
 
 .social-media{
     text-align: center;

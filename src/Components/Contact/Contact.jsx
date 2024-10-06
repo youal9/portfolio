@@ -12,7 +12,7 @@ const Contact = () => {
           <h1 className='contact-title'>Kontakta Mig</h1>
 
           <div className='contact-details'>
-            <p><strong><FontAwesomeIcon icon={faEnvelope} size="lg" /> E-post:</strong> Youal111@outlook.com</p>
+            <p><strong><FontAwesomeIcon icon={faEnvelope} size="lg" /> E-post:</strong><a href="mailto:Youal111@outlook.com" >  Youal111@outlook.com </a></p>
             <p><strong><FontAwesomeIcon icon={faPhone} size="lg" /> Telefon:</strong> +46 728751381</p>
             <p><strong><FontAwesomeIcon icon={faLocationPin} size="lg" /> Plats:</strong> Stockholm, Sweden</p>
           </div>
