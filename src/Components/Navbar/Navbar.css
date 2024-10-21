@@ -107,6 +107,8 @@
     .header .navbar img {
         width: 90px;
         padding: 20px;
+        z-index: 2; /* Sätt z-index så att den ligger över bakgrunden */
+        position: relative; /* Gör att z-index fungerar */
     }
 }
 
