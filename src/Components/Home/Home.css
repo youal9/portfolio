@@ -41,14 +41,17 @@
     
 }
 
-
+.p-text{
+    font-weight: 500;
+    font-size: 19px;
+}
 .text-h1 {
     font-size: 45px ;
     font-weight: bold ;
     letter-spacing: 7px ;
     text-transform: uppercase;
     padding: 6px;
-    background: linear-gradient(to right, hsl(0, 0%, 100%) 0%, hsl(0, 0%, 100%) 10%, hsla(0, 14%, 95%, 0.697) 20%);
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.456) 0%, hsla(0, 0%, 100%, 0.418) 10%, hsl(0, 15%, 95%) 20%);
    
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
