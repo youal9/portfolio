@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <section className="Home">
       {/* Bakgrundsvideo */}
-      <video src={bv} className="background-video" autoPlay loop muted>
+      <video src={bv} className="background-video" autoPlay loop muted playsInline disablePictureInPicture controlsList="nodownload nofullscreen noremoteplayback" >
       
       </video>
 
@@ -28,7 +28,7 @@ const Home = () => {
             animate={{ x: 0 }}
             transition={{ duration: 2, ease: "easeOut" }}
           >
-            <p>
+            <p className="p-text">
               I’m a frontend developer and student with a strong passion for
               building user-friendly and responsive web applications. Currently
               studying frontend development, I am constantly seeking new
