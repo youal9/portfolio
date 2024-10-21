@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.878), rgba(0, 0, 0, 0.568));
 }
 
 .header .navbar .logo {
