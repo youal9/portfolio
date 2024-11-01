@@ -1,8 +1,14 @@
 .contact{
     width: 100%;
-    height: 78vh;
+    min-height: 100vh;
     margin-top: 40px; /* Add margin to create space between sections */
     padding: 40px 0;
+   
+    display: flex;
+   flex-direction: column;
+    justify-content: center; /* Vertikal centrering */
+    align-items: center; /* Horisontell centrering */
+    
     
 }
 .contact-title{
