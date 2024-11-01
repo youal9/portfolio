@@ -1,19 +1,14 @@
-
 .skills {
-    width: 100%;
     position: relative;
+    width: 100%;
+    min-height: 100vh; /* Täcker hela höjden av sidan */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    min-height: 100vh; /* Säkerställ att sektionen täcker hela viewport-höjden */
-    background-image: url(../../assets/skills5.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+    overflow: hidden;
 }
+
 .skills::before {
     content: "";
     position: absolute;
@@ -21,94 +16,65 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.539); /* Mörk overlay med 60% opacitet */
-    z-index: 1;
+    background: rgba(0, 0, 0, 0.85); /* Mörk overlay för att förbättra textsynlighet */
+    z-index: 1; /* Placera overlayen ovanför videon */
 }
-.skills * {
-    position: relative;
-    z-index: 2;
+
+.background-videoo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Se till att videon täcker hela ytan */
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Placera videon bakom allt annat innehåll */
 }
+
 .sectionTitle {
-    font-size: 50px;
-    
-    color: #ffffff;
+    font-size: 50px; /* Justera storlek på titeln */
+    color: #ffffff; /* Färg för titeln */
+    margin-bottom: 20px; /* Avstånd under titeln */
+    z-index: 2; /* Placera titeln ovanpå overlayen */
+    position: relative; /* Ändrad till relative */
 }
 
 .skillList {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px; /* Justera avståndet mellan färdighetsobjekten */
+    gap: 30px; /* Avstånd mellan ikoner */
+    z-index: 2; /* Placera ikonerna ovanpå overlayen */
+    position: relative; /* Ändrad till relative */
+    padding: 20px; /* Extra padding om nödvändigt */
 }
 
 .skillItem {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    color: white;
-    
+    color: white; /* Textfärg */
 }
 
 .iconContainer {
+    font-size: 4rem; /* Justera ikonstorlek */
     transition: transform 200ms ease-in-out;
-    font-size: 4rem; /* Justera ikonstorlek här */
-    
 }
 
 .iconContainer:hover {
-    transform: scale(1.2);
+    transform: scale(1.2); /* Skala ikonen vid hover */
 }
 
-.skillItem div {
-    font-weight: bold; 
-}
-.icons{
-    font-size: 70px;
+.icons {
+    font-size: 70px; /* Ikonens storlek */
 }
 
-
-
-
-@media (min-width: 800px) {
-    .sectionTitle {
-        font-size: 3rem; /* Justera storlek för mellanstora skärmar */
-        margin-top: 50px; /* Mindre marginal för mellanstora skärmar */
-    }
-    .skillList {
-        gap: 40px; /* Justera avståndet för mellanstora skärmar */
-    }
-    .iconContainer {
-        font-size: 8rem; /* Justera ikonstorlek för mellanstora skärmar */
-    }
-}
-
-
+/* Anpassning för mindre skärmar */
 @media (max-width: 600px) {
-    .skills {
-        background-position: right; /* Håll fokus centralt */
-       
-    }
-    .skills::before {
-        background-color: rgba(0, 0, 0, 0.767); 
-    }
     .sectionTitle {
-        font-size: 2rem; /* Justera storlek för små skärmar */
-        margin-top: 20px; /* Mindre marginal för små skärmar */
+        font-size: 2rem; /* Justera storlek på titeln */
     }
-    h1{
-        margin-bottom: 15px;
-    }
-    .skillList {
-        gap: 20px; /* Mindre avstånd för små skärmar */
-    }
-    .iconContainer {
-        font-size: 3rem; /* Mindre ikonstorlek för små skärmar */
-    }
-    .icons{
-        font-size: 50px;
+    .icons {
+        font-size: 50px; /* Justera ikonens storlek för mobila enheter */
     }
 }
-
-  
-  
