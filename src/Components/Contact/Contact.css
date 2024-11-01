@@ -69,9 +69,11 @@
   @media screen and (max-width: 600px) {
     .contact{
         width: 100%;
-       
        height: 85vh;
         
+    }
+    .contact::before{
+      background-color: rgba(0, 0, 0, 0.647); 
     }
     .contact-title {
         font-size: 2em;
