@@ -127,6 +127,9 @@
 @media screen and (max-width: 1071px) {
     .projects {
         grid-template-columns: 1fr 1fr;
+        background-size: cover;
+        background-position: center;
+
     }
     .projectsTitle {
         font-size: 2em;
