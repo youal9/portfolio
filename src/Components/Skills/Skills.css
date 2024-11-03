@@ -1,7 +1,7 @@
 .skills {
     position: relative;
     width: 100%;
-    min-height: 120vh; /* Täcker hela höjden av sidan */
+    min-height: 100vh; /* Täcker hela höjden av sidan */
     display: flex;
     flex-direction: column;
     justify-content: center;
