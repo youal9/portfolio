@@ -19,7 +19,7 @@ const projects = [
   },
   {
     title: 'Gym',
-    description: 'A responsiv gym site.',
+    description: 'I built a fully responsive gym website that allows users to easily navigate through sections about gym memberships, personal trainers, and the team. I used React to create a dynamic interface and Framer Motion to implement smooth animations during page transitions and scrolling',
     website: 'https://invasion-gym.netlify.app/',
     github: 'https://github.com/youal9/Gymm'
   }
