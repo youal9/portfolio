@@ -18,11 +18,10 @@ const projects = [
     github: 'https://github.com/youal9/mat-applikationer'
   },
   {
-    title: 'Portfolio',
-    description: 'My portfolio, where I showcase my skills and projects in frontend development.',
-    image: Port,
-    website: 'https://youalsportfolio.vercel.app/',
-    github: 'https://github.com/youal9/portfolio'
+    title: 'Gym',
+    description: 'A responsiv gym site.',
+    website: 'https://invasion-gym.netlify.app/',
+    github: 'https://github.com/youal9/Gymm'
   }
 ];
 
