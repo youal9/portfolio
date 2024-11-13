@@ -34,7 +34,7 @@ function Skills() {
         <SkillIcon icon={<FaHtml5 className="icons iconHtml5" color="orange" />} skill="HTML" />
         <SkillIcon icon={<FaCss3Alt className="icons iconCss3" color="blue" />} skill="CSS" />
         <SkillIcon icon={<FaJsSquare className="icons iconJsSquare" color="yellow" />} skill="JavaScript" />
-        <SkillIcon icon={<FaNode className="icons iconNode" color="green" />} skill="Node" />
+       
       </div>
       <hr />
       <div className="skillList">
