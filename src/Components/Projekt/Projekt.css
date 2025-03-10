@@ -8,6 +8,7 @@
     background-image: url(../../assets/skills6.jpg);
     background-size: cover;
     background-position: center;
+    gap: 17px;
     background-repeat: no-repeat;
    
 }
@@ -159,7 +160,7 @@
 
 @media screen and (max-width: 840px) {
     .project {
-     width: 450px;
+     width:300px;
      
      
 
@@ -178,7 +179,7 @@
       
     }
     .projectTitle {
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .shoppApp {
         width: 200px;
