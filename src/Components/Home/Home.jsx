@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/yyyy.png";
-import cv from "../../assets/cv.pdf";
+import cv from "../../assets/CV...pdf";
 import bv from "../../assets/bg.mp4"
 import { motion } from "framer-motion";
 import "./Home.css";
@@ -9,9 +9,16 @@ const Home = () => {
   return (
     <section className="Home">
       {/* Bakgrundsvideo */}
-      <video src={bv} className="background-video" autoPlay loop muted playsInline disablePictureInPicture controlsList="nodownload nofullscreen noremoteplayback" >
-      
-      </video>
+      <video 
+              src={bv} 
+              className="background-video" 
+              autoPlay 
+              loop 
+              muted 
+              playsInline 
+              disablePictureInPicture 
+              controlsList="nodownload nofullscreen noremoteplayback"
+            />
 
       <div className="about-content">
         <div className="about-title">
