@@ -132,7 +132,12 @@
 }
 
   
+@media screen and (min-width: 1440px){
+    .project {
+        height: 80%;
 
+    }
+}
 @media screen and (max-width: 1071px) {
     .projects {
         grid-template-columns: 1fr 1fr;
@@ -153,10 +158,20 @@
 }
 
 @media screen and (max-width: 840px) {
+    .project {
+     width: 450px;
+     
+     
+
+    }
+    
     .projects {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        display: flex;
+        justify-content: center;
+          align-items: center;
     }
     .projectsTitle {
         font-size: 2em;
