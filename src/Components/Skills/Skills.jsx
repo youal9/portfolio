@@ -1,6 +1,8 @@
 import React from "react";
 import './Skills.css';
 import bv from "../../assets/bggg.mp4";
+import cy from "../../assets/cy.webp";
+
 import {
   FaHtml5,
   FaCss3Alt,
@@ -34,6 +36,9 @@ function Skills() {
         <SkillIcon icon={<FaHtml5 className="icons iconHtml5" color="orange" />} skill="HTML" />
         <SkillIcon icon={<FaCss3Alt className="icons iconCss3" color="blue" />} skill="CSS" />
         <SkillIcon icon={<FaJsSquare className="icons iconJsSquare" color="yellow" />} skill="JavaScript" />
+        <SkillIcon icon={<img src={cy} alt="Cypress" className="icons cypress-icon" />} skill="Cypress" 
+/>
+
        
       </div>
       <hr />
