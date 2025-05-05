@@ -9,7 +9,13 @@
     align-items: center;
     overflow: hidden;
 }
-
+.cypress-icon {
+    width: 4.5rem;
+    height: 4.5rem;
+    object-fit: contain;
+   
+  }
+  
 .skills::before {
     content: "";
     position: absolute;
