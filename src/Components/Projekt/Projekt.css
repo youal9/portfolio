@@ -133,12 +133,7 @@
 }
 
   
-@media screen and (min-width: 1440px){
-    .project {
-        height: 80%;
 
-    }
-}
 @media screen and (max-width: 1071px) {
     .projects {
         grid-template-columns: 1fr 1fr;
