@@ -69,7 +69,22 @@
     font-size: 30px;
 }
 
-
+@media screen and (min-width: 1440px) {
+    .header .navbar {
+      max-width: 1600px;
+      padding: 0 2rem;
+    }
+  
+    .header .nav-item a {
+      font-size: 1.2rem;
+      padding: 1.2rem;
+    }
+  
+    .header .navbar img {
+      width: 65px;
+    }
+  }
+  
 @media screen and (max-width:940px) {
     .header {
         max-width: 100%;
