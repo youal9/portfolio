@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
    
-    height: 110vh; /* Täcker hela höjden av sidan */
+    min-height: 130vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;

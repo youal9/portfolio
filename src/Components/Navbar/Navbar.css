@@ -39,27 +39,24 @@
 
 .header .nav-item a {
     padding: 1rem;
-    font-weight: 500;
+    font-weight: 300;
     position: relative;
 }
 
 .header .nav-item a::before {
-    content: " ";
-    width: 2rem;
-    height: 0.2rem;
-    background: linear-gradient(90deg, rgb(32, 52, 84) 0%, rgb(200, 211, 200) 100%);
-    border-radius: 0.5rem;
+    content: "";
     position: absolute;
-    bottom: -0.6rem;
-    opacity: 0;
-    transform: translateX(-1.5rem);
-    transition: all 0.3s ease;
+    width: 0;
+    height: 2px;
+    background-color: #007BFF;
+    left: 50%;
+    bottom: 9px;
+    transition: width 0.3s ease, left 0.3s ease;
 }
 
 .header .nav-item a:hover::before {
-    width: 80%;
-    transform: translateX(0);
-    opacity: 9;
+    width: 100%;
+    left: 0;
 }
 
 .hamburger {
