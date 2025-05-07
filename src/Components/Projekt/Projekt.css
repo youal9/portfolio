@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
+    padding: 50px 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     margin-top: 50px; 
@@ -36,7 +37,7 @@
 }
 
 .project {
-    border: 2px solid rgba(255, 255, 255, 0.975);
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,15 +45,10 @@
     overflow: hidden;
     margin: 0 20px;
     padding: 20px 20px;
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.987);
-    transition: transform 0.3s, box-shadow 0.3s;
+    
+   
 }
-.project:hover{
-    transform: scale(1.05); /* Gör elementet 5% större vid hover */
-    border-color:rgb(32, 52, 84);
-    backdrop-filter: blur(10px)
 
-}
 .laptopImage {
     width: 50%;
 }
@@ -79,6 +75,10 @@
 }
 
 .projectDetail {
+    border: 2px solid rgba(255, 255, 255, 0.975);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.987);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,10 +88,14 @@
     line-height: 1.4;
     padding: 15px; /* Lägg till padding så att texten inte klibbar vid kanterna */
     border-radius: 17px; /* Rundade hörn för bakgrundsfärgen */
-
-   
-    margin: 20px;
+     margin: 20px;
     
+}
+.projectDetail:hover{
+    transform: scale(1.05); /* Gör elementet 5% större vid hover */
+    border-color:rgb(32, 52, 84);
+    backdrop-filter: blur(10px)
+
 }
 
 .projectTitle {
