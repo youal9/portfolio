@@ -1,24 +1,12 @@
 import React from "react";
-import logo from "../../assets/yyyy.png";
+import logo from "../../assets/youal.png";
 import cv from "../../assets/CV...pdf";
-import bv from "../../assets/bg.mp4"
 import { motion } from "framer-motion";
 import "./Home.css";
 
 const Home = () => {
   return (
-    <section className="Home">
-      {/* Bakgrundsvideo */}
-      <video 
-              src={bv} 
-              className="background-video" 
-              autoPlay 
-              loop 
-              muted 
-              playsInline 
-              disablePictureInPicture 
-              controlsList="nodownload nofullscreen noremoteplayback"
-            />
+    <section className="Home"> 
 
       <div className="about-content">
         <div className="about-title">
@@ -27,7 +15,7 @@ const Home = () => {
             animate={{ y: 0 }}
             transition={{ duration: 2, ease: "easeOut" }}
           >
-            <h1 className="text-h1">Hi, I am Youal</h1>
+            <h1 className="text-h1">Hi, I am <span className="name">Youal</span></h1>
           </motion.div>
 
           <motion.div
