@@ -112,7 +112,8 @@
     }
 
     .nav-menu.active {
-        top: 9vh;
+        top: 0;
+        padding-top: 10vh;
     }
 
     .nav-item {
