@@ -112,7 +112,7 @@
     }
 
     .nav-menu.active {
-        top: 0;
+        top: 9vh;
     }
 
     .nav-item {
