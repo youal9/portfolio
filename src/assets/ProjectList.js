@@ -1,9 +1,16 @@
-import laptopApp from '../assets/shopp.jpeg';
+import laptopApp from '../assets/dentist.png';
 import Food from '../assets/food.png';
 import Gym from '../assets/gym.png';
 import bil from '../assets/bil.png';
 
 const projects = [
+  {
+    title: ' ⚠️ Not done yet ',
+    description: 'Heads up: This page is still under construction. I’ve just started working on it – but you re welcome to check it out!',
+    image: laptopApp,
+    website: 'https://dentist-five-kohl.vercel.app/',
+    
+  },
   {
     title: 'NextGen Trafikskola',
     description: 'A modern driving school website built with React, featuring smooth animations and responsive design',
@@ -25,13 +32,7 @@ const projects = [
     website: 'https://invasion-gym.netlify.app/',
     github: 'https://github.com/youal9/Gymm'
   },
-  {
-    title: 'Webb Shop',
-    description: 'A web shop offering a diverse range of fashion and sports products. Products are stored in a database and categorized into sections like men, women, kids, and home.',
-    image: laptopApp,
-    website: 'https://webbshop-athletx-m.vercel.app/Home',
-    github: 'https://github.com/youal9/webbshop'
-  },
+  
 ];
 
 export default projects;
