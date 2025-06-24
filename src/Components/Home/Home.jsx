@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/youal.png";
-import cv from "../../assets/CV...pdf";
+import cv from "../../assets/CV..pdf";
 import { motion } from "framer-motion";
 import "./Home.css";
 
@@ -24,10 +24,9 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeOut" }}
           >
             <p className="p-text">
-              I’m a frontend developer and student with a strong passion for
-              building user-friendly and responsive web applications. Currently
-              studying frontend development, I am constantly seeking new
-              opportunities to enhance my knowledge and skills in the field.
+              I’m a frontend developer with a strong passion for building user-friendly and
+               responsive web applications. I recently graduated in frontend development and am 
+               now looking for new opportunities to grow and contribute in the tech industry
             </p>
             <a href={cv} download="Youal cv">
               <button>Download CV</button>
