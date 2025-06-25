@@ -9,6 +9,7 @@ const projects = [
     description: 'Heads up: This page is still under construction. I’ve just started working on it – but you re welcome to check it out!',
     image: laptopApp,
     website: 'https://dentist-five-kohl.vercel.app/',
+    github: 'https://github.com/youal9/dentist'
     
   },
   {
