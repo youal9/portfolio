@@ -11,8 +11,8 @@ const Project = () => (
     {projects.map((project, index) => (
       <div key={index} className="project">
         <motion.div
-          initial={{ x: index % 2 === 0 ? -200 : 200, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
+          initial={{ y: 200,  opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1.2, ease: 'easeOut' }}
           viewport={{ once: true }}
         >
