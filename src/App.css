@@ -17,22 +17,69 @@
   }
   
   .background-image {
-    position: fixed; /* Fixera bakgrunden så att den inte rör sig vid scrollning */
+    position: fixed; 
     top: 0;
     left: 0;
-    width: 100vw; /* 100% av viewport width */
-    height: 100vh; /* 100% av viewport height */
-    background-image: url('../src/assets/data.jpg'); /* Ändra till din bilds sökväg */
-    background-size: cover; /* För att täcka hela skärmen */
-    background-position: center; /* Centrerar bilden */
-    background-repeat: no-repeat; /* Förhindrar upprepning */
-    z-index: -1; /* Lägg den bakom allt annat innehåll */
+    width: 100vw; 
+    height: 100vh; 
+    background-image: url('../src/assets/data.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1; 
   }
+  .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000000;
+  color: #ffffff;
   
+  
+}
+.loading span{
+   display: inline-block;
+  font-size: 150px;
+  animation: flip 2.6s infinite linear;
+  
+}
+@keyframes flip {
+  35% {
+    transform: rotateX(350deg);
+  }
+  100% {
+    transform: rotateX(350deg);
+  }
+}
+.loading span:nth-child(even){
+  color: rgb(59, 81, 228);
+   text-shadow: 30px 30px 30px rgba(40, 51, 125, 0.935);
+}
+.loading span:nth-child(2){
+  animation-delay: 0.3s;
+}
+.loading span:nth-child(3){
+  animation-delay: 0.6s;
+}
+.loading span:nth-child(4){
+  animation-delay: 0.9s;
+}
+.loading span:nth-child(5){
+  animation-delay: 1.2s;
+}
+.loading span:nth-child(6){
+  animation-delay: 1.5s;
+}
+.loading span:nth-child(7){
+  animation-delay: 1.8s;
+}
+
+
   .main-content {
     position: relative;
     z-index: 1;
-    min-height: 100vh; /* För att säkerställa att huvudcontent täcker hela höjden på viewporten */
+    min-height: 100vh; 
   }
   
   ul {
@@ -42,4 +89,20 @@
   a {
     text-decoration: none;
   }
+  
+@media (max-width: 1024px) {
+  .loading span {
+    font-size: 100px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  
+
+  .loading span {
+    font-size: 50px;
+  }
+}
+
   
