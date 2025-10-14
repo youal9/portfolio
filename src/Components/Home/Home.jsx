@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/youal.png";
-import cv from "../../assets/CV..pdf";
+import cv from "../../assets/CV.yw.pdf";
 import { motion } from "framer-motion";
 import "./Home.css";
 
