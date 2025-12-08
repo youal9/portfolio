@@ -6,13 +6,16 @@ import cy from "../../assets/cy.webp";
 import {
   FaHtml5,
   FaCss3Alt,
-  FaBootstrap,
   FaJsSquare,
   FaReact,
   FaGit,
   FaNode,
   FaFigma,
 } from "react-icons/fa";
+import {
+  SiMongodb,
+  SiExpress
+} from "react-icons/si"
 
 function Skills() {
   return (
@@ -45,8 +48,9 @@ function Skills() {
       <div className="skillList">
         <SkillIcon icon={<FaReact className="icons iconReact" color="aqua" />} skill="React" />
         <SkillIcon icon={<FaGit className="icons iconGit" color="white" />} skill="Git" />
-        <SkillIcon icon={<FaBootstrap className="icons iconBootstrap" color="purple" />} skill="Bootstrap" />
-        <SkillIcon icon={<FaFigma className="icons iconFigma" color="blue" />} skill="Figma" />
+        <SkillIcon icon={<FaNode className="icons iconBootstraFaNode" color="green" />} skill="Node" />
+        <SkillIcon icon={<SiMongodb className="icons iconFigma" color="green" />} skill="Mongodb" />
+        <SkillIcon icon={<SiExpress className="icons iconFigma" color="yellow" />} skill="Express" />
       </div>
     </section>
   );
