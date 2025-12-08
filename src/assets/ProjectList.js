@@ -20,7 +20,7 @@ const projects = [
     github: 'https://github.com/youal9/react-project'
   },
   {
-    title: 'Mat applikation',
+    title: 'food application',
     description: 'A recipe search application that uses TheMealDB API to retrieve and display data on various dishes. Users can search for recipes, view detailed ingredients, and get instructions.',
     image: Food,
     website: 'https://matapplikation-y.vercel.app/',
